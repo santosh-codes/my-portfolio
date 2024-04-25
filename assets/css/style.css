@@ -258,6 +258,7 @@ article.active {
 .has-scrollbar::-webkit-scrollbar-track {
   background: var(--onyx);
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
