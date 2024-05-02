@@ -341,9 +341,29 @@ main {
   background: var(--onyx);
   font-size: var(--fs-8);
   font-weight: var(--fw-300);
+  border: 1px solid #ffc764;
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+}
+
+.info-content .title-views {
+  color: var(--white-1);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  margin: auto;
+  width: max-content;
+  padding: 10px 12px;
+  border-radius: 8px;
+  display: flex;
+  gap: 5px;
+}
+@media screen and (max-width: 1249px) {
+  .info-content .title-views {
+    margin: 0px;
+  }
 }
 
 .info_more-btn {
@@ -1434,7 +1454,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .separator {
-    margin: 32px 0;
+    margin: px 0;
   }
 
   .contacts-list {
