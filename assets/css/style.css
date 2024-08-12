@@ -325,7 +325,9 @@ main {
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+  /* border-top-right-radius: 20px;
+  border-top-left-radius: 20px; */
+  height: 150px;
 }
 
 .info-content .name {
@@ -991,7 +993,7 @@ main {
 .project-list {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 30px;
+  gap: 5px;
   margin-bottom: 10px;
 }
 
@@ -1019,7 +1021,7 @@ main {
 
 .project-img {
   position: relative;
-  width: 100%;
+  width: 50%;
   height: 200px;
   border-radius: 16px;
   overflow: hidden;
@@ -1423,7 +1425,8 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box {
-    border-radius: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
   }
 
   .avatar-box img {
@@ -1872,7 +1875,7 @@ textarea.form-input::-webkit-resizer {
    */
 
   .project-list {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 
   /**
